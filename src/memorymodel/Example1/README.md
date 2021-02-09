@@ -1,3 +1,3 @@
 The basic idea here is to show how the memory model works in Java. More precisely, we have two objects of Runnable that are stored on the heap memory. 
 We are starting two threads and each thread is having its own Runnable object, and has its own Thread Stack( stored on Main Memory(RAM) ). 
-Because of this the result is the expected one and the field( count ) that it is stored inside de Runnable does not get affected by the two threads ( because they are not accesing at the same time/delayed the field) and by affected we want to say that no Race Conditions or Visibility problems are happening.
+Because of this the result is the expected one and the field( count ) that it is stored inside the Runnable does not get affected by the two threads ( because they are not accesing at the same time/delayed the field) and by affected we want to say that no Race Conditions or Visibility problems are happening.
