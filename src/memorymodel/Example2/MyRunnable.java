@@ -1,4 +1,4 @@
-package memorymodel.Example1.Example2;
+package memorymodel.Example2;
 
 public class MyRunnable implements Runnable{
     private int count;

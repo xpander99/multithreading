@@ -1,4 +1,4 @@
-package memorymodel.Example1.Example2;
+package memorymodel.Example2;
 
 public class Main {
     public static void main(String[] args){
